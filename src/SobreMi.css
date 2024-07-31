@@ -273,7 +273,14 @@
    .text{
     margin-top: 350px;
    }
+
+   .textNigth{
+    margin-top: 350px;
+   }
    .showText{
+    width: 50%;
+   }
+   .showTextNigth{
     width: 50%;
    }
   }
