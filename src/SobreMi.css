@@ -268,3 +268,12 @@
   .link-animationNigth:hover::after {
     background-color: #606fa0;
   }
+
+  @media (max-width: 767px) {
+   .text{
+    margin-top: 350px;
+   }
+   .showText{
+    width: 50%;
+   }
+  }
