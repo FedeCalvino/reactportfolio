@@ -53,7 +53,7 @@ function App() {
       />
       {CVBool && <Curriculum lang={Lang}/>}
       {sobreMiBool && <SobreMi lang={Lang} dayNigth={DayNight}/>}
-      {proyectosBool && <Proyects lang={Lang}/>}
+      {proyectosBool && <Proyects lang={Lang} dayNigth={DayNight}/>}
     </div>
   );
 }
