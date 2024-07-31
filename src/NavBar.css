@@ -74,13 +74,6 @@
   color: #6c757d;
 }
 
-.name{
-  display: none;
-}
-
-.iconDN {
-  display: none;
-}
 
 /* Mostrar elementos en pantallas más grandes */
 @media (min-width: 768px) {
@@ -101,6 +94,14 @@
     padding: 10px;
     margin-right: 0; /* Eliminar margen derecho en móviles */
   }
+  .lenguaje{
+    margin-left: 40px;
+    display: inline;
+  }
+  .iconDN {
+    margin-left: 120px;
+  }
+  
 
   .nav a {
     font-size: medium; /* Reducir tamaño de fuente en móviles */
