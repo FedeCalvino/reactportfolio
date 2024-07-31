@@ -1,0 +1,57 @@
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+}
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+p {
+    margin: 0;
+}
+
+.App {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .styled-button {
+    background-color: #4CAF50; /* Verde */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Sombra */
+    margin-bottom: 20px;
+  }
+  
+  .styled-button:hover {
+    background-color: rgb(157, 157, 157);
+  }
+
+  h1 {
+    font-family: 'Arial', sans-serif; /* Fuente */
+    font-size: 2.5rem; /* Tamaño de fuente */
+    color: #333; /* Color del texto */
+    text-align: center; /* Alinear al centro */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra del texto */
+    margin-bottom: 20px; /* Margen inferior */
+  }
+  
+  h2 {
+    font-family: 'Arial', sans-serif; /* Fuente */
+    font-size: 2rem; /* Tamaño de fuente */
+    color: #555; /* Color del texto */
+    text-align: center; /* Alinear al centro */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Sombra del texto */
+    margin-bottom: 15px; /* Margen inferior */
+  }

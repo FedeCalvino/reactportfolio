@@ -1,0 +1,15 @@
+.svg-container {
+    gap: 1rem; /* Espacio entre los iconos */
+    flex-wrap: wrap; /* Permite que los iconos se muevan a la siguiente línea si es necesario */
+  }
+  
+  .svg-icon {
+    transition: transform 0.3s ease; /* Transición suave para los cambios de tamaño */
+    cursor: pointer;
+  }
+  
+  /* Tamaño más grande cuando el usuario pasa el cursor sobre el icono */
+  .svg-icon:hover,
+.svg-icon.hover-effect {
+  transform: scale(1.5);
+}
