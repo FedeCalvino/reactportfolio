@@ -100,7 +100,8 @@
     align-items: end;
   }
   .iconDN {
-   
+    align-items: end;
+    justify-content: end;
   }
   .name{
     /*color: #f8f9fa;*/
