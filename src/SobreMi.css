@@ -216,7 +216,9 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Sombra */
     margin-bottom: 20px;
   }
-  
+  .h2Nigth{
+    color: white;
+  }
   .link-animationNigth {
     position: relative;
     z-index: 0;
@@ -230,7 +232,7 @@
     height: 40px;
     transition: all 0.3s ease;
     overflow: hidden;
-    background: blue; /* Añade un fondo blanco */
+    background: #3c799f; /* Añade un fondo blanco */
   }
   
   .link-animationNigth::before {
@@ -267,6 +269,82 @@
   
   .link-animationNigth:hover::after {
     background-color: #606fa0;
+  }
+  .showTextNigth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .showText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contentext{
+    width: 70%;
+  }
+
+
+  /*carrsuel*/
+  .logosContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logos{
+    width: 50%;
+  }
+
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .logos {
+    overflow: hidden;
+    padding: 60px 0;
+    background: rgba(0, 0, 0, 0);
+    white-space: nowrap;
+    position: relative;
+    height: 20px;
+    border-radius: 50px;
+    }
+  
+  .logos:before,
+  .logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+  .logito{
+    margin-left: 20px;
+  }
+
+  .logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  }
+  
+  .logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  }
+  
+  .logosContainer{
+    height: 40px;
+  }
+  
+  .logos-slide {
+    display: inline-block;
+    animation: 20s slide infinite linear;
+    
   }
 
   @media (max-width: 767px) {

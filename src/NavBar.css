@@ -14,18 +14,19 @@
   width: 20%;
 }
 
-.iconDN {
-  width: 10%;
+.iconDN{
+  width: 25%;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
+  margin-left: 0px;
 }
 
 .nav .navLinks {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  width: 50%;
+  width: 35%;
 }
 
 .iconMoonDay {
@@ -40,7 +41,7 @@
 }
 
 .iconDN img {
-  display: block;
+
 }
 
 .nav .name {
@@ -63,10 +64,6 @@
   padding: 5px 10px;
   cursor: pointer;
   font-size: larger;
-}
-
-.nav a:hover {
-  color: blue; /* Cambia el color del texto al pasar el ratón sobre el enlace */
 }
 
 .nav p {
@@ -95,13 +92,21 @@
     margin-right: 0; /* Eliminar margen derecho en móviles */
   }
   .lenguaje{
-    margin-left: 40px;
+    margin-left: 60px;
+    display: flex;
     display: inline;
+    justify-content: end;
+    align-items: end;
   }
   .iconDN {
-    margin-left: 120px;
+    margin-left: 100px;
   }
-  
+  .name{
+    /*color: #f8f9fa;*/
+  }
+  .imgLeng{
+    margin-left: 45px;
+  }
 
   .nav a {
     font-size: medium; /* Reducir tamaño de fuente en móviles */
@@ -111,5 +116,12 @@
   .nav .navLinks {
     width: 100%; /* Asegurar que los enlaces ocupen todo el ancho */
     justify-content: space-between; /* Distribuir enlaces uniformemente */
+  }
+
+  .navLink1:Hover{
+
+  }
+  .navLink1{
+    color: black;
   }
 }

@@ -15,3 +15,51 @@ body{
 .night {
     background: radial-gradient(circle, #000000 0%, rgba(23, 20, 56, 1) 50%, rgba(17, 15, 71, 1) 100%);
 }*/
+
+footer {
+    background-color: #514b4b; /* Color de fondo del footer */
+    color: #fff; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Centra el contenido */
+  }
+  
+  .infoFoot {
+    display: flex;
+    justify-content: space-around; /* Espacia los elementos de manera uniforme */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en varias líneas si es necesario */
+  }
+  
+  .mail, .tel {
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    gap: 10px; /* Espacio entre el icono y el texto */
+  }
+  
+  .mail img, .tel img {
+    width: 50px; /* Ajusta el tamaño de las imágenes de iconos */
+    height: 50px; /* Ajusta el tamaño de las imágenes de iconos */
+  }
+  
+  a {
+    color: #fff; /* Color del enlace */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Subraya el enlace al pasar el ratón sobre él */
+  }
+  
+  svg {
+    margin: 0 25px; /* Espacio a los lados del SVG */
+  }
+  
+  .tel p {
+    margin: 0; /* Elimina el margen del párrafo */
+  }
+  
+  img[src$="linkedin.png"] {
+    width: 70; /* Ajusta el tamaño del icono de LinkedIn */
+    height: 70px; /* Ajusta el tamaño del icono de LinkedIn */
+    vertical-align: middle; /* Alinea verticalmente el icono */
+  }

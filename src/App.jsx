@@ -12,7 +12,7 @@ function App() {
   const [proyectosBool, setproyectosBool] = useState(false);
   const [CVBool, setCVBool] = useState(false);
   const [Lang, setLang] = useState("");
-  const [DayNight, setDayNight] = useState("Day");
+  const [DayNight, setDayNight] = useState("Nigth");
 
   const handleProyects = () => {
     setproyectosBool(true);

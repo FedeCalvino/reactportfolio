@@ -5,7 +5,7 @@ export const Curriculum = ({lang}) => {
   return (
     <>
     <div className='cvContainer'>
-        {lang==="ENG" ? <img className='cv' src="/cvENG.png" height={1000} alt="ENG" />:
+        {lang==="ENG" ? <img className='cv' src="/cvENG.png" height={1300} alt="ENG" />:
         <img className='cv' src="/cvESP.png" height={1000} alt="ESP" />}
     </div>
     </>

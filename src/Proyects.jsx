@@ -15,7 +15,7 @@ export const Proyects = ({ lang, dayNigth }) => {
 
   return (
       <div>
-        <h1 className={dayNigth === "Day" ? "h1" : "h1Nigth"}>
+        <h1 style={{marginTop:"15px"}} className={dayNigth === "Day" ? "h1" : "h1Nigth"}>
           {lang === "ENG" ? "Project" : "Proyecto"}
         </h1>
         <h2 className={dayNigth === "Day" ? "h2" : "h2Nigth"}>ERP-CRM-POS</h2>
