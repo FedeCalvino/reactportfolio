@@ -90,6 +90,7 @@
   .nav {
     padding: 10px;
     margin-right: 0; /* Eliminar margen derecho en móviles */
+    justify-content: space-around;
   }
   .lenguaje{
     margin-left: 60px;
@@ -105,7 +106,7 @@
     /*color: #f8f9fa;*/
   }
   .imgLeng{
-    margin-left: 45px;
+    
   }
 
   .nav a {
