@@ -93,11 +93,11 @@
     justify-content: space-around;
   }
   .lenguaje{
-    margin-left: 60px;
+    margin-left: 0px;
     display: flex;
     display: inline;
-    justify-content: end;
-    align-items: end;
+    justify-content: center;
+    align-items: center;
   }
   .iconDN {
     align-items: end;
