@@ -15,6 +15,9 @@ const SvgIcons = ({language,dayNigth}) => {
         handleClick(Num,true)
       },[language])
 
+      useEffect(()=>{
+        handleClick(1)
+      },[language])
 
   
     const handleClick = (Number,boolUpdate) => {
@@ -87,7 +90,7 @@ const SvgIcons = ({language,dayNigth}) => {
     <>
     <p className={dayNigth === "Day" ? "svg-container" : "svg-containerNigth"}>
         <svg width="100"
-            className="svg-icon"
+            className={Num===1 ? "svg-iconActive" : "svg-icon"}
             height="55" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg"
             onClick={()=>handleClick(1,false)}>
             <defs>
@@ -114,7 +117,7 @@ const SvgIcons = ({language,dayNigth}) => {
         </svg>
 
         <svg
-        className="svg-icon"
+        className={Num===2 ? "svg-iconActive" : "svg-icon"}
         onClick={()=>handleClick(2,false)}
           xmlns="http://www.w3.org/2000/svg"
           width="100"
@@ -126,7 +129,7 @@ const SvgIcons = ({language,dayNigth}) => {
         </svg>
 
         <svg
-        className="svg-icon"
+            className={Num===3 ? "svg-iconActive" : "svg-icon"}
           viewBox="0 0 256 222"
           onClick={()=>handleClick(3,false)}
           width="90"
@@ -137,7 +140,7 @@ const SvgIcons = ({language,dayNigth}) => {
           <path fill="#000" d="m128 0 128 221.705H0z" />
         </svg>
         <svg
-        className="svg-icon"
+        className={Num===4 ? "svg-iconActive" : "svg-icon"}
           viewBox="0 0 256 228"
           onClick={()=>handleClick(4,false)}
           width="100"
@@ -151,7 +154,7 @@ const SvgIcons = ({language,dayNigth}) => {
           />
         </svg>
         <svg
-        className="svg-icon"
+        className={Num===5 ? "svg-iconActive" : "svg-icon"}
         onClick={()=>handleClick(5,false)}
           viewBox="0 0 64 64"
           xmlns="http://www.w3.org/2000/svg"
@@ -164,7 +167,7 @@ const SvgIcons = ({language,dayNigth}) => {
           />
         </svg>
         <svg
-        className="svg-icon"
+        className={Num===6 ? "svg-iconActive" : "svg-icon"}
         onClick={()=>handleClick(6,false)}
           viewBox="0 0 48 48"
           xmlns="http://www.w3.org/2000/svg"
