@@ -61,10 +61,10 @@ export const SobreMi = ({ lang,dayNigth }) => {
           {
             lang === "ENG"
               ? setText(
-                  "In my free time, I enjoy exercising, going to the gym, running, or playing soccer. I'm also very passionate about music, especially electronic music; I love creating it from scratch and recording my own tracks. I like to take my time with this, without rushing, because I want things to turn out well. I consider myself a hands-on learner, so I enjoy putting into practice everything I learn from videos or courses."
+                  "In my free time, I often go to the gym and exercise at least once a day. I am also very passionate about music, I like to do everything well and without rushing. On the other hand, my main goal in life is to visit as many places in the world as I can. I love experiencing different cultures and places that help me understand how vast the planet is and the multitude of people and customs that exist"
                 )
               : setText(
-                  "En mi tiempo libre disfruto de hacer ejercicio , ir al gimnasio, correr o jugar fútbol. También me apasiona mucho la música, principalmente electrónica, me gusta crearla desde cero e ir a grabar mis propios temas. Me gusta hacerlo con tiempo , sin apuros, porque me gusta que las cosas salgan bien. Me considero una persona que aprende haciendo, por lo que me gusta poner en practica todo lo nuevo que aprendo en videos o cursos"
+                  "En mi tiempo libre suelo ir mucho al gimnasio y hacer deporte por lo menos 1 vez al dia, tambien me apasiona mucho la musica. Todo lo que hago me gusta hacerlo bien y sin apuro.Por otro lado mi objetivo principal en la vida es poder conocer la mayor cantidad de lugares en el mundo que pueda, me encanta poder ver otras culturas y lugares que me hagan entender lo grande que es el planeta y la cantidad de personas y costumbres que existen"
                 );
           }
           break;
@@ -83,10 +83,10 @@ export const SobreMi = ({ lang,dayNigth }) => {
           {
             lang === "ENG"
               ? setText(
-                  "I began studying programming in 2020 after leaving my career in electronics engineering, as it wasn't the path I wanted to pursue. However, during that career, I had a course that introduced me to programming, and I fell in love with it. That’s when I decided to focus 100% on Software development"
+                  "I started studying programming in 2020 after leaving my electronics engineering degree because it wasn't what I wanted to pursue. However, during that degree, we did some programming, and I loved it. That's when I decided to focus 100% on Development"
                 )
               : setText(
-                  "Comence a estudiar programacion en el 2020 luego de dejar la carrera de ingenieria en electronica ya que no era a lo que me queria dedicar pero dentro de esa carrera tuve una materia la cual me acerco a la programacion y me encanto, fue ahi donde decidi enfocarme 100% en el Desarrollo"
+                  "Comence a estudiar programacion en el 2020 luego de dejar la carrera de ingenieria en electronica ya que no era a lo que me queria dedicar pero dentro de esa carrera vimos un poco de programacion y me encanto, fue ahi donde decidi enfocarme 100% en el Desarrollo"
                 );
           }
           break;
