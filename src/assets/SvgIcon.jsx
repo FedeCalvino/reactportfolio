@@ -17,7 +17,7 @@ const SvgIcons = ({language,dayNigth}) => {
 
       useEffect(()=>{
         handleClick(1)
-      },[language])
+      },[])
 
   
     const handleClick = (Number,boolUpdate) => {
