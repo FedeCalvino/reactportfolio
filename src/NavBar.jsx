@@ -25,7 +25,7 @@ export const NavBar = ({ CallBackProyect, CallBackSobreMi, CallBackCv, CallBackL
         {DayNigth === "Day" ? <img onClick={() => { CallBackDayNigth("Nigth"); setDayNigth("Nigth") }} className='iconMoonDay' height={40} width={40} src="/moon.png" alt="" /> : <img className='iconMoonDay' onClick={() => { CallBackDayNigth("Day"); setDayNigth("Day") }} height={45} width={45} src="/sun.png" alt="" />}
       </div>
       <div className='navLinks'>
-          <a className='navLink1' onClick={CallBackProyect}>{Lang === "ENG" ? "Project" : "Proyecto"}</a>
+          {/*<a className='navLink1' onClick={CallBackProyect}>{Lang === "ENG" ? "Project" : "Proyecto"}</a> */}
         <p>|</p>
         <a className='navLink1' onClick={CallBackSobreMi}>{Lang === "ENG" ? "About me" : "Sobre Mi"}</a>
         <p>|</p>
